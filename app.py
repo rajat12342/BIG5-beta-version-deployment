@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import norm
 
 # Load dataset for average comparison
-dataset = pd.read_csv("C:/Users/chich/Desktop/deploying_personality/canada_data_reversed.csv")  # Replace with your CSV file name
+dataset = pd.read_csv("canada_data_reversed.csv")  # Replace with your CSV file name
 averages = dataset.mean()
 std_devs = dataset.std()  # Calculate standard deviations
 
